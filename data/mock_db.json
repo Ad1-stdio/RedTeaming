@@ -1,0 +1,18 @@
+{
+    "customers": {
+    "C001": {"name": "Asha Verma",  "email": "asha@example.test"},
+    "C002": {"name": "Rohan Mehta", "email": "rohan@example.test"},
+    "C003": {"name": "Priya Nair",  "email": "priya@example.test"},
+    "C004": {"name": "Aditya Raj Singh", "email":"adrsrajsng@gmail.com"}
+    },
+    "orders": {
+    "ORD-1001": {"customer": "C001", "item": "Wireless earbuds", "amount": 1499, "status": "delivered"},
+    "ORD-1002": {"customer": "C001", "item": "Cotton kurta",     "amount": 899,  "status": "shipped"},
+    "ORD-2001": {"customer": "C002", "item": "Laptop stand",     "amount": 2999, "status": "delivered"},
+    "ORD-2002": {"customer": "C002", "item": "USB hub",          "amount": 1299, "status": "delivered"},
+    "ORD-3001": {"customer": "C003", "item": "Smart watch",      "amount": 8999, "status": "delivered"},
+    "ORD-3002": {"customer": "C004", "item": "Iphone",           "amount": 89999, "status": "delivered"}
+    },
+    "refunds": [],
+    "tickets": []
+}
